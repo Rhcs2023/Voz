@@ -144,7 +144,7 @@ oracion = st.text_input("Ingresa una oración en español:")
 #    st.write(f"La oración traducida al mixeco es: {oracion_traducida}")
 
     # Implementa tu lógica para traducir la oración aquí
-    return oracion
+   # return oracion
 
 # Función para convertir texto a voz
 def texto_a_voz(texto):
