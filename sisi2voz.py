@@ -129,10 +129,10 @@ diccionario = {
         'yo': 'ri-ná(con respeto)',
 }
 
-def traducir_oracion(oracion):
-    palabras = oracion.split()
-    oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
-    return oracion_traducida
+#def traducir_oracion(oracion):
+ #   palabras = oracion.split()
+  #  oracion_traducida = " ".join([diccionario.get(palabra.lower(), palabra) for palabra in palabras])
+   # return oracion_traducida
 
 st.title("Traductor de español a Mixteco")
 
@@ -145,6 +145,11 @@ oracion = st.text_input("Ingresa una oración en español:")
 
     # Implementa tu lógica para traducir la oración aquí
    # return oracion
+# Función para traducir una oración
+
+def traducir_oracion(oracion):
+    # Implementa tu lógica para traducir la oración aquí
+    return oracion
 
 # Función para convertir texto a voz
 def texto_a_voz(texto):
