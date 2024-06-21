@@ -142,7 +142,7 @@ oracion = st.text_input("Ingresa una oración en español:")
 #    st.write(f"La oración traducida al mixeco es: {oracion_traducida}")
     
 
-import streamlit as st
+
 from gtts import gTTS
 from io import BytesIO
 
