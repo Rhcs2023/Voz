@@ -1,4 +1,6 @@
 import streamlit as st
+from gtts import gTTS
+from io import BytesIO
 
 # Diccionario con palabras a traducir
 diccionario = {
@@ -140,14 +142,7 @@ oracion = st.text_input("Ingresa una oración en español:")
 # if st.button("Traducir"):
 #    oracion_traducida = traducir_oracion(oracion)
 #    st.write(f"La oración traducida al mixeco es: {oracion_traducida}")
-    
 
-
-from gtts import gTTS
-from io import BytesIO
-
-# Función para traducir una oración
-def traducir_oracion(oracion):
     # Implementa tu lógica para traducir la oración aquí
     return oracion
 
